@@ -9,10 +9,21 @@
   </head>
   <body>
     <main>
-      <div class="container">
-        <h1 class="main-title">Form</h1>
-        <a class="back-link" href="./index.html">Go back</a>
+      <h1 class="main-title">Form</h1>
+      <div class="container-form">
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback-lebel">
+            <p class="feedback-text">Email</p>
+            <input type="email" name="email" placeholder="Type area" />
+          </label>
+          <label class="feedback-lebel">
+            <p class="feedback-text">Message</p>
+            <textarea name="message" rows="8"></textarea>
+          </label>
+          <button class="feedback-btn" type="submit">Submit</button>
+        </form>
       </div>
+      <a class="back-link" href="./index.html">Go back</a>
     </main>
     <script type="module" src="./js/2-form.js"></script>
   </body>
